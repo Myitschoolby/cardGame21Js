@@ -122,8 +122,8 @@ const game21 = function() {
         let randName = cardArr[rand(0, cardArr.length-1)];
 
         card.innerHTML = `
-        <div class="card_item card_front" style="background-image: url(/images/${randName}.png);"></div>
-        <div class="card_item card_back" style="background-image: url(/images/${cardBack}.png);"></div>
+        <div class="card_item card_front" style="background-image: url(images/${randName}.png);"></div>
+        <div class="card_item card_back" style="background-image: url(images/${cardBack}.png);"></div>
         `;
 
         cardCont.appendChild(card);
